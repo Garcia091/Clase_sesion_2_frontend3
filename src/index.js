@@ -2,9 +2,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
+import App from './container/App'
 
 
 ReactDOM.render(
-  <h1>Hola clase</h1>,
+     <App />   ,
     document.getElementById('root')
 )
